@@ -5,7 +5,7 @@ import { auth, provider } from "../firebase";
 import { useDispatch, useSelector } from "react-redux";
 // dispatch items to store, retrieve items to store
 import {
-  selectUserName,
+  selectUsername,
   selectUserPhoto,
   setSignOutState,
   setUserLoginDetails,
@@ -15,7 +15,7 @@ import { useEffect } from "react";
 const Header = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
-  const username = useSelector(selectUserName);
+  const username = useSelector(selectUsername);
   const userPhoto = useSelector(selectUserPhoto);
 
   // runs only when username is changed
@@ -64,7 +64,7 @@ const Header = (props) => {
   return (
     <Nav>
       <Logo>
-        <img src="images/logo.svg" alt="disney" />
+        <img src="images/disney-coolmoon.svg" alt="disney" />
       </Logo>
 
       {!username ? (
