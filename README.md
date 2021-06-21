@@ -1,6 +1,10 @@
 
 # Yensid
 A disney+ clone made by following clever programmer's tutorial.
+
+Deployed via Firebase:
+https://yensid-ea090.web.app/
+
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="screen shot" src="screenshots/Screenshot (5).png?raw=true">  |  <img width="1604" alt="screen shot" src="screenshots/Screenshot (6).png?raw=true">|<img width="1604" alt="screen shot" src="screenshots/Screenshot (7).png?raw=true">|
